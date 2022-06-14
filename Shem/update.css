@@ -1,0 +1,69 @@
+*
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgb(60, 22, 61);
+}
+form
+{
+    background: rgb(139, 39, 143);
+    width: 25%;
+    height: 70%;
+    margin-top: 50px;
+    margin-left: 30px;
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    color: white;   
+}
+input
+{
+    background: none;
+   outline: white;
+   inline-size: 30px;
+   width: 200px;
+   height: 26px;
+   border-left: 3px solid rgb(190, 241, 70);
+   border-right: 3px solid rgb(190, 241, 70);
+   border-top: 3px solid rgb(130, 207, 221);
+   border-bottom: 3px solid rgb(190, 241, 70);
+   border-radius: 20px;
+}
+input[type="submit"]
+{
+    background: yellow;
+ border: none;
+ width: 100px;
+ height: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 20px;
+ color: rgb(0, 0, 0);
+ border-bottom: 6px solid red;  
+ transition: 1s; 
+}
+input[type="submit"]:hover
+{
+    background: blue;
+    color: white;
+    width: 110px;
+    height: 55px;
+    border-bottom: 6px solid rgb(12, 9, 11);  
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    border: 1px solid yellow;
+    padding: 12px 15px;
+    border-radius: 30px;
+
+}
+a:hover{
+    color: red;
+}

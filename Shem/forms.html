@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    background: rgb(0, 0, 0, 0.5);
+    width: 40%;
+    height: 60%;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 10;
+    margin-top: 10%;
+    border-radius: 10px;
+    
+}
+input{
+   border-radius: 40px; 
+   border-bottom: 6px solid  rgb(25, 25, 25, 25.5);
+   border-top:10;
+   border-left: 10;
+   border-right: 10;
+   background: none;
+}
+    </style>
+</head>
+<body>
+      
+    <div class="hero">
+        <nav>
+           
+            <ul>
+                <li><a href="forms.html">HOME</a></li>
+                <li><a href="">ABAUT US</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">HERE ME</a></li>
+            </ul>
+            <img src="2.png" id="icon">
+        </nav>
+        <div class="info">
+            <h1>jmy<span>Shem</h1>
+            <p>simple website </p>
+            <a href="">Dawnload CV</a>
+        </div>
+    </div>
+    <div class="container">
+        <form method="POST" action="CONNECTION.php">
+            <div class="container">
+            <input type="text" name="fname" placeholder="first name"><br><br>
+            <input type="text" name="lname"placeholder="last name"><br><br>
+            <input type="text" name="gender" placeholder="gender"><br><br>
+            <input type="text" name="age" placeholder="age"><br><br>
+            <input type="text" name="address" placeholder="address"><br><br>
+            <input type="submit" name="sub" value="insert">
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>
